@@ -1,0 +1,812 @@
+﻿Log file open, 09/20/18 17:35:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SnapCasters
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.260118
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.064s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.20-21.35.48:038][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.20-21.35.48:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.20-21.35.48:048][  0]LogHAL: Display: Platform has ~ 16 GB [17115758592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.20-21.35.48:048][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.20-21.35.48:048][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.20-21.35.48:048][  0]LogInit: Computer: DESKTOP-Q43JBJI
+[2018.09.20-21.35.48:048][  0]LogInit: User: Jaime
+[2018.09.20-21.35.48:048][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.20-21.35.48:048][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2018.09.20-21.35.48:049][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.20-21.35.48:049][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.20-21.35.48:049][  0]LogMemory: Process Physical Memory: 100.55 MB used, 100.55 MB peak
+[2018.09.20-21.35.48:049][  0]LogMemory: Process Virtual Memory: 91.09 MB used, 91.09 MB peak
+[2018.09.20-21.35.48:049][  0]LogMemory: Physical Memory: 5354.40 MB used,  10968.46 MB free, 16322.86 MB total
+[2018.09.20-21.35.48:049][  0]LogMemory: Virtual Memory: 4645.13 MB used,  10968.46 MB free, 134217728.00 MB total
+[2018.09.20-21.35.48:061][  0]LogInit: Using OS detected language (en-US).
+[2018.09.20-21.35.48:061][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.20-21.35.48:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.20-21.35.48:329][  0]LogStreaming: Display: Took  0.269s to InitEngineTextLocalization.
+[2018.09.20-21.35.48:329][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.20-21.35.48:354][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.20-21.35.48:354][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.20-21.35.48:476][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.20-21.35.48:476][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.20-21.35.48:514][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.09.20-21.35.48:514][  0]LogD3D11RHI:       6061/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.20-21.35.48:516][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.20-21.35.48:516][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.20-21.35.48:516][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.20-21.35.48:520][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.20-21.35.48:520][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.20-21.35.48:520][  0]LogWindows: EnumDisplayDevices:
+[2018.09.20-21.35.48:520][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.09.20-21.35.48:520][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.20-21.35.48:520][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.20-21.35.48:520][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.09.20-21.35.48:520][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.09.20-21.35.48:520][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.09.20-21.35.48:520][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.09.20-21.35.48:520][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.09.20-21.35.48:520][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.09.20-21.35.48:541][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.20-21.35.48:550][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.20-21.35.48:598][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Intermediate/Shaders/WorkingDirectory/11608/).
+[2018.09.20-21.35.48:598][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jaime/AppData/Local/Temp/UnrealShaderWorkingDir/A5B638C84845162C19D7E7B62FFD5EBB/'.
+[2018.09.20-21.35.48:786][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.20-21.35.48:797][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.20-21.35.48:806][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.20-21.35.48:816][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.20-21.35.48:827][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.20-21.35.48:837][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.20-21.35.48:847][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.20-21.35.48:857][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.20-21.35.48:862][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.20-21.35.48:924][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.20-21.35.48:979][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.20-21.35.48:979][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.20-21.35.48:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.20-21.35.48:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.20-21.35.49:005][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.20-21.35.49:014][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.20-21.35.49:023][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.20-21.35.49:032][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.20-21.35.49:039][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.20-21.35.49:039][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.20-21.35.49:077][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.20-21.35.49:077][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.20-21.35.49:077][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.20-21.35.49:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.20-21.35.49:656][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Jaime/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.20-21.35.49:657][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jaime/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.20-21.35.49:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.20-21.35.49:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.20-21.35.49:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.20-21.35.49:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.20-21.35.49:667][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.20-21.35.49:679][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jaime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.20-21.35.49:679][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.20-21.35.49:679][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.20-21.35.49:693][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.20-21.35.49:694][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.20-21.35.49:695][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.20-21.35.49:753][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.09.20-21.35.49:980][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.20-21.35.50:070][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.20-21.35.50:072][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.20-21.35.50:072][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.20-21.35.50:072][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.20-21.35.50:073][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.20-21.35.50:084][  0]LogNetVersion: SnapCasters 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2311766060)
+[2018.09.20-21.35.50:424][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.069791 seconds
+[2018.09.20-21.35.50:429][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.20-21.35.50:429][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.20-21.35.50:429][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.20-21.35.51:016][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.20-21.35.51:029][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.20-21.35.51:144][  0]SourceControl: Source control is disabled
+[2018.09.20-21.35.51:144][  0]SourceControl: Source control is disabled
+[2018.09.20-21.35.51:144][  0]SourceControl: Source control is disabled
+[2018.09.20-21.35.51:145][  0]SourceControl: Source control is disabled
+[2018.09.20-21.35.51:282][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.20-21.35.51:318][  0]LogOcInput: OculusInput pre-init called
+[2018.09.20-21.35.51:364][  0]LogEngine: Initializing Engine...
+[2018.09.20-21.35.51:364][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.20-21.35.51:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-21.35.51:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-21.35.51:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-21.35.51:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-21.35.51:517][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.20-21.35.51:527][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.20-21.35.51:566][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.20-21.35.51:576][  0]LogInit: FAudioDevice initialized.
+[2018.09.20-21.35.51:576][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.20-21.35.51:741][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/Jaime/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.20-21.35.51:752][  0]LogInit: Texture streaming: Enabled
+[2018.09.20-21.35.51:764][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.20-21.35.51:773][  0]LogInit: Transaction tracking system initialized
+[2018.09.20-21.35.51:788][  0]BlueprintLog: New page: Editor Load
+[2018.09.20-21.35.51:839][  0]LocalizationService: Localization service is disabled
+[2018.09.20-21.35.52:021][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.20-21.35.52:021][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.20-21.35.52:021][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.20-21.35.52:021][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.20-21.35.52:021][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.20-21.35.52:021][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.20-21.35.52:021][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.20-21.35.52:104][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/' took 0.01s
+[2018.09.20-21.35.52:104][  0]SourceControl: Source control is disabled
+[2018.09.20-21.35.52:105][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.20-21.35.52:105][  0]LightingResults: New page: Lighting Build
+[2018.09.20-21.35.52:107][  0]MapCheck: New page: Map Check
+[2018.09.20-21.35.52:107][  0]LightingResults: New page: Lighting Build
+[2018.09.20-21.35.52:278][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.35.52:287][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.20-21.35.52:304][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.20-21.35.52:344][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.875ms to complete.
+[2018.09.20-21.35.52:344][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.239
+[2018.09.20-21.35.52:424][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.35.52:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.35.52:436][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.35.52:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.35.52:448][  0]LogCollectionManager: Loaded 0 collections in 0.001853 seconds
+[2018.09.20-21.35.52:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Saved/Collections/' took 0.01s
+[2018.09.20-21.35.52:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/Developers/Jaime/Collections/' took 0.01s
+[2018.09.20-21.35.52:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/Collections/' took 0.01s
+[2018.09.20-21.35.52:489][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.20-21.35.52:496][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2572 classes and 603 folders.
+[2018.09.20-21.35.52:501][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-21.35.52:543][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-21.35.52:547][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.20-21.35.52:608][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.20-21.35.52:609][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.20-21.35.52:615][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.20-21.35.52:670][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2018.09.20-21.35.52:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.20-21.35.52:747][  0]LogLoad: (Engine Initialization) Total time: 6.01 seconds
+[2018.09.20-21.35.52:747][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.20-21.35.52:756][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.20-21.35.52:774][  0]LogAssetRegistry: Asset discovery search completed in 3.0430 seconds
+[2018.09.20-21.35.52:776][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.20-21.35.52:776][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2018.09.20-21.35.52:777][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.20-21.35.52:798][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.20-21.35.53:773][105]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.20-21.35.55:049][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.20-21.35.55:211][275]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/WeaponList.WeaponList
+[2018.09.20-21.35.55:530][275]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.09.20-21.35.56:071][275]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.20-21.35.56:357][275]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.275 s
+[2018.09.20-21.35.56:357][275]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.20-21.35.56:357][275]LogOutputDevice: Error: 
+[2018.09.20-21.35.56:357][275]LogOutputDevice: Error: Ensure condition failed: InWidgetObject.Implements<UUserListEntry>() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Public\Slate/SObjectTableRow.h] [Line: 59]
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: Any UserWidget generated as a table row must implement the IUserListEntry interface
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: Stack: 
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdf9d71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdf710c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdf72b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda533e5e UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda50693f UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda528628 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda5f1c04 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda49a550 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda58b89d UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda570612 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda55071a UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda55852d UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda559783 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda5a9cc1 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc67fa4a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdd1d UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63f8ad UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbda598df2 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63f266 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63f266 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63efcd UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc6402c4 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbd61f0050 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63efcd UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc64438e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc64438e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc63efcd UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbdc64438e UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: [Callstack] 0x00007ffbe0bcc92a UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.35.56:358][275]LogOutputDevice: Error: 
+[2018.09.20-21.35.56:364][275]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.20-21.35.56:558][275]LogStats:                    SendNewReport -  0.194 s
+[2018.09.20-21.35.56:558][275]LogStats:             FDebug::EnsureFailed -  0.475 s
+[2018.09.20-21.36.23:046][969]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.20-21.36.34:095][291]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/ThirdPersonBP/Blueprints/weaponEntryButton.weaponEntryButton
+[2018.09.20-21.37.02:452][649]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-21.37.02:471][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.02:471][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-21.37.02:484][649]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:37:02 PM)
+[2018.09.20-21.37.02:484][649]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2018.09.20-21.37.02:500][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016689s)
+[2018.09.20-21.37.02:501][649]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.37.02:501][649]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.09.20-21.37.02:501][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017552s)
+[2018.09.20-21.37.02:533][649]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.20-21.37.02:541][649]LogInit: FAudioDevice initialized.
+[2018.09.20-21.37.02:545][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.02:686][649]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.20-21.37.02:687][649]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.37.02
+[2018.09.20-21.37.02:688][649]LogWorld: Bringing up level for play took: 0.000945
+[2018.09.20-21.37.02:704][649]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.20-21.37.02:705][649]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.02:705][649]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.09.20-21.37.02:705][649]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.02:705][649]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.09.20-21.37.02:705][649]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.09.20-21.37.02:706][649]LogInit: WinSock: I am DESKTOP-Q43JBJI (192.168.0.15:0)
+[2018.09.20-21.37.02:706][649]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.02:706][649]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.09.20-21.37.02:709][649]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.818
+[2018.09.20-21.37.02:710][649]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:37:02 PM)
+[2018.09.20-21.37.02:714][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-21.37.02:716][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.02:753][649]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2018.09.20-21.37.02:753][649]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.02:753][649]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.09.20-21.37.02:753][649]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.09.20-21.37.02:753][649]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.09.20-21.37.02:753][649]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.02:753][649]LogNet: Game client on port 17777, rate 10000
+[2018.09.20-21.37.02:756][649]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.866
+[2018.09.20-21.37.02:761][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.02:761][649]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51159
+[2018.09.20-21.37.02:761][649]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 177133048092223090155031111097244078064056072182082126075168
+[2018.09.20-21.37.02:764][649]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 177133048092223090155031111097244078064056072182082126075168
+[2018.09.20-21.37.02:783][649]LogRenderer: Reallocating scene render targets to support 1208x760 Format 10 NumSamples 1 (Frame:1).
+[2018.09.20-21.37.02:867][650]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51159
+[2018.09.20-21.37.02:867][650]LogHandshake: SendChallengeAck. InCookie: 177133048092223090155031111097244078064056072182082126075168
+[2018.09.20-21.37.02:867][650]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51159
+[2018.09.20-21.37.02:867][650]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.02:867][650]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 09/20/18 17:37:02, [UNetConnection] RemoteAddr: 127.0.0.1:51159, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.02:868][650]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51159, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.02:868][650]LogNetVersion: SnapCasters 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3269503870)
+[2018.09.20-21.37.02:868][650]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.02:887][651]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2018.09.20-21.37.02:887][651]LogNet: Remote platform little endian=1
+[2018.09.20-21.37.02:887][651]LogNet: This platform little endian=1
+[2018.09.20-21.37.02:908][652]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054 userId: DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054
+[2018.09.20-21.37.02:908][652]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.09.20-21.37.02:911][652]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.09.20-21.37.02:948][652]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.37.02:948][652]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.02:953][652]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.37.02
+[2018.09.20-21.37.02:953][652]LogWorld: Bringing up level for play took: 0.004385
+[2018.09.20-21.37.02:953][652]LogLoad: Took 0.041472 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2018.09.20-21.37.02:967][653]LogNet: Client netspeed is 10000
+[2018.09.20-21.37.02:967][653]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054?SplitscreenCount=1
+[2018.09.20-21.37.02:967][653]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.02:969][653]LogNet: Join succeeded: DESKTOP-Q43JBJI-B700
+[2018.09.20-21.37.03:030][659]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.03:098][666]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.04:688][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.04:688][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.04:703][845]LogSlate: Window 'SnapCasters Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.37.04:731][845]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.09.20-21.37.04:731][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.04:743][845]LogSlate: Window 'SnapCasters Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.37.04:771][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-21.37.04:771][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.04:795][845]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51159, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054
+[2018.09.20-21.37.04:795][845]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51159, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054, Channels: 10, Time: 2018.09.20-21.37.04
+[2018.09.20-21.37.04:795][845]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51159, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054
+[2018.09.20-21.37.04:795][845]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054
+[2018.09.20-21.37.04:795][845]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054, Channels: 10, Time: 2018.09.20-21.37.04
+[2018.09.20-21.37.04:795][845]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-Q43JBJI-B700C282432D046ACCC3C693E1E77054
+[2018.09.20-21.37.04:798][845]LogExit: GameNetDriver None shut down
+[2018.09.20-21.37.04:798][845]LogExit: GameNetDriver None shut down
+[2018.09.20-21.37.04:814][846]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.20-21.37.04:814][846]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.20-21.37.14:125][952]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.20-21.37.14:125][952]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/myPlayer.myPlayer
+[2018.09.20-21.37.19:191][507]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-21.37.19:212][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.19:212][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-21.37.19:213][507]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:37:19 PM)
+[2018.09.20-21.37.19:213][507]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2018.09.20-21.37.19:222][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008892s)
+[2018.09.20-21.37.19:223][507]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.37.19:223][507]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2018.09.20-21.37.19:223][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009698s)
+[2018.09.20-21.37.19:252][507]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.20-21.37.19:261][507]LogInit: FAudioDevice initialized.
+[2018.09.20-21.37.19:264][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.19:302][507]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.20-21.37.19:303][507]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.37.19
+[2018.09.20-21.37.19:303][507]LogWorld: Bringing up level for play took: 0.000808
+[2018.09.20-21.37.19:315][507]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.19:315][507]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.09.20-21.37.19:315][507]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.19:315][507]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.09.20-21.37.19:315][507]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.09.20-21.37.19:315][507]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.19:315][507]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.09.20-21.37.19:321][507]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.569
+[2018.09.20-21.37.19:322][507]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:37:19 PM)
+[2018.09.20-21.37.19:326][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-21.37.19:327][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.19:366][507]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2018.09.20-21.37.19:366][507]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.19:366][507]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.09.20-21.37.19:366][507]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.09.20-21.37.19:366][507]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.09.20-21.37.19:366][507]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.19:366][507]LogNet: Game client on port 17777, rate 10000
+[2018.09.20-21.37.19:372][507]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap -0.519
+[2018.09.20-21.37.19:379][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.19:379][507]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51165
+[2018.09.20-21.37.19:379][507]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 079116123252083124238100252086040044137075036178119244121018
+[2018.09.20-21.37.19:380][507]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 079116123252083124238100252086040044137075036178119244121018
+[2018.09.20-21.37.19:480][508]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51165
+[2018.09.20-21.37.19:480][508]LogHandshake: SendChallengeAck. InCookie: 079116123252083124238100252086040044137075036178119244121018
+[2018.09.20-21.37.19:480][508]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51165
+[2018.09.20-21.37.19:480][508]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.37.19:480][508]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 09/20/18 17:37:19, [UNetConnection] RemoteAddr: 127.0.0.1:51165, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.19:480][508]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51165, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.19:481][508]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.37.19:491][509]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2018.09.20-21.37.19:491][509]LogNet: Remote platform little endian=1
+[2018.09.20-21.37.19:491][509]LogNet: This platform little endian=1
+[2018.09.20-21.37.19:512][510]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085 userId: DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085
+[2018.09.20-21.37.19:513][510]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.09.20-21.37.19:515][510]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.09.20-21.37.19:545][510]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.37.19:545][510]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.37.19:546][510]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.37.19
+[2018.09.20-21.37.19:546][510]LogWorld: Bringing up level for play took: 0.000787
+[2018.09.20-21.37.19:546][510]LogLoad: Took 0.031571 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2018.09.20-21.37.19:563][511]LogNet: Client netspeed is 10000
+[2018.09.20-21.37.19:563][511]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085?SplitscreenCount=1
+[2018.09.20-21.37.19:563][511]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.19:564][511]LogNet: Join succeeded: DESKTOP-Q43JBJI-26DD
+[2018.09.20-21.37.19:646][518]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.19:668][520]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.37.20:334][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.20:334][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.20:350][584]LogSlate: Window 'SnapCasters Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.37.20:376][584]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.09.20-21.37.20:376][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.37.20:388][584]LogSlate: Window 'SnapCasters Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.37.20:416][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-21.37.20:416][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.37.20:442][584]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51165, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085
+[2018.09.20-21.37.20:442][584]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51165, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085, Channels: 2, Time: 2018.09.20-21.37.20
+[2018.09.20-21.37.20:442][584]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51165, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085
+[2018.09.20-21.37.20:442][584]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085
+[2018.09.20-21.37.20:442][584]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085, Channels: 2, Time: 2018.09.20-21.37.20
+[2018.09.20-21.37.20:442][584]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-26DD5EB34B8FA0CA2913D1858820C085
+[2018.09.20-21.37.20:442][584]LogExit: GameNetDriver None shut down
+[2018.09.20-21.37.20:442][584]LogExit: GameNetDriver None shut down
+[2018.09.20-21.37.20:457][585]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.20-21.37.20:458][585]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.09.20-21.37.45:986][621]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.20-21.37.59:735][266]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_WeaponList_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.09.20-21.38.02:361][579]BlueprintLog: New page: Compile WeaponList
+[2018.09.20-21.38.02:378][579]LogBlueprint: Error: [Compiler WeaponList] The type of  Array  is undetermined.  Connect something to  ForEachLoop  to imply a specific type.
+[2018.09.20-21.38.02:378][579]LogBlueprint: Error: [Compiler WeaponList] The type of  Target Array  is undetermined.  Connect something to  Length  to imply a specific type.
+[2018.09.20-21.38.02:420][579]LogBlueprint: Warning: [Compiler WeaponList] [0135.69] Compile of WeaponList failed. 2 Fatal Issue(s) 0 Warning(s) [in 59 ms] (/Game/ThirdPersonBP/Blueprints/WeaponList.WeaponList)
+[2018.09.20-21.38.18:308][474]BlueprintLog: New page: Compile WeaponList
+[2018.09.20-21.38.21:181][807]LogSavePackage: Moving '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Saved/WeaponList87E9B4F9436034F01C3C39A4BE5A587F.tmp' to '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/ThirdPersonBP/Blueprints/WeaponList.uasset'
+[2018.09.20-21.38.21:992][904]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-21.38.22:012][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.38.22:012][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-21.38.22:013][904]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:38:22 PM)
+[2018.09.20-21.38.22:013][904]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2018.09.20-21.38.22:023][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009922s)
+[2018.09.20-21.38.22:024][904]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.38.22:024][904]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.09.20-21.38.22:024][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010811s)
+[2018.09.20-21.38.22:053][904]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.20-21.38.22:062][904]LogInit: FAudioDevice initialized.
+[2018.09.20-21.38.22:065][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.38.22:099][904]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.20-21.38.22:100][904]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.38.22
+[2018.09.20-21.38.22:100][904]LogWorld: Bringing up level for play took: 0.000806
+[2018.09.20-21.38.22:112][904]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.38.22:112][904]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.09.20-21.38.22:112][904]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.38.22:112][904]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.09.20-21.38.22:112][904]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.09.20-21.38.22:112][904]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.38.22:112][904]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.09.20-21.38.22:116][904]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.226
+[2018.09.20-21.38.22:117][904]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:38:22 PM)
+[2018.09.20-21.38.22:120][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-21.38.22:122][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.38.22:154][904]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2018.09.20-21.38.22:154][904]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.38.22:154][904]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.09.20-21.38.22:154][904]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.09.20-21.38.22:154][904]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.09.20-21.38.22:154][904]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.38.22:154][904]LogNet: Game client on port 17777, rate 10000
+[2018.09.20-21.38.22:159][904]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 0.268
+[2018.09.20-21.38.22:165][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.38.22:165][904]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57450
+[2018.09.20-21.38.22:165][904]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 031099188016024208060139206200042122137111144056033204204224
+[2018.09.20-21.38.22:166][904]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 031099188016024208060139206200042122137111144056033204204224
+[2018.09.20-21.38.22:258][905]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57450
+[2018.09.20-21.38.22:258][905]LogHandshake: SendChallengeAck. InCookie: 031099188016024208060139206200042122137111144056033204204224
+[2018.09.20-21.38.22:258][905]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57450
+[2018.09.20-21.38.22:258][905]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.38.22:258][905]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 09/20/18 17:38:22, [UNetConnection] RemoteAddr: 127.0.0.1:57450, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.38.22:258][905]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57450, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.38.22:259][905]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.09.20-21.38.22:269][906]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2018.09.20-21.38.22:269][906]LogNet: Remote platform little endian=1
+[2018.09.20-21.38.22:269][906]LogNet: This platform little endian=1
+[2018.09.20-21.38.22:289][907]LogNet: Login request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381 userId: DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381
+[2018.09.20-21.38.22:289][907]LogNet: Welcomed by server (Level: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.09.20-21.38.22:291][907]LogLoad: LoadMap: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.09.20-21.38.22:323][907]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.38.22:323][907]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.38.22:324][907]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.38.22
+[2018.09.20-21.38.22:324][907]LogWorld: Bringing up level for play took: 0.000539
+[2018.09.20-21.38.22:325][907]LogLoad: Took 0.034171 seconds to LoadMap(/Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2018.09.20-21.38.22:339][908]LogNet: Client netspeed is 10000
+[2018.09.20-21.38.22:339][908]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381?SplitscreenCount=1
+[2018.09.20-21.38.22:339][908]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.38.22:341][908]LogNet: Join succeeded: DESKTOP-Q43JBJI-F617
+[2018.09.20-21.38.22:421][916]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.38.22:485][923]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2018.09.20-21.38.23:260][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.38.23:260][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.38.23:275][ 11]LogSlate: Window 'SnapCasters Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.38.23:307][ 11]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2018.09.20-21.38.23:307][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.38.23:319][ 11]LogSlate: Window 'SnapCasters Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.20-21.38.23:347][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.20-21.38.23:347][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.38.23:368][ 11]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57450, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381
+[2018.09.20-21.38.23:368][ 11]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57450, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381, Channels: 2, Time: 2018.09.20-21.38.23
+[2018.09.20-21.38.23:368][ 11]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57450, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381
+[2018.09.20-21.38.23:369][ 11]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381
+[2018.09.20-21.38.23:369][ 11]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381, Channels: 2, Time: 2018.09.20-21.38.23
+[2018.09.20-21.38.23:369][ 11]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:DESKTOP-Q43JBJI-F6171B164BF2E98994BBEFB41FADE381
+[2018.09.20-21.38.23:371][ 11]LogExit: GameNetDriver None shut down
+[2018.09.20-21.38.23:371][ 11]LogExit: GameNetDriver None shut down
+[2018.09.20-21.38.23:384][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.20-21.38.23:384][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.20-21.39.09:464][505]LogAssetEditorManager: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2018.09.20-21.42.02:086][824]BlueprintLog: New page: Compile WeaponList
+[2018.09.20-21.42.10:549][792]LogSavePackage: Moving '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Saved/WeaponListB16880804E87AB885D11E4B300F30B72.tmp' to '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/ThirdPersonBP/Blueprints/WeaponList.uasset'
+[2018.09.20-21.42.11:691][904]LogSavePackage: Moving '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Saved/ThirdPersonExampleMap4D702D5040E3302E6DAD4F96FE4069F8.tmp' to '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.09.20-21.42.11:882][904]LogSavePackage: Moving '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Saved/ThirdPersonExampleMap_BuiltData1C492E7D4D86145814E10199548AE148.tmp' to '../../../../../../Users/Jaime/Documents/GitHub/SnapCasters/SnapCasters/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.09.20-21.42.30:836][305]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.20-21.42.30:862][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.42.30:862][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.20-21.42.30:863][305]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:42:30 PM)
+[2018.09.20-21.42.30:863][305]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2018.09.20-21.42.30:873][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010162s)
+[2018.09.20-21.42.30:874][305]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.09.20-21.42.30:874][305]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.09.20-21.42.30:874][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011155s)
+[2018.09.20-21.42.30:904][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.20-21.42.30:912][305]LogInit: FAudioDevice initialized.
+[2018.09.20-21.42.30:916][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.42.30:948][305]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.09.20-21.42.30:949][305]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.09.20-17.42.30
+[2018.09.20-21.42.30:949][305]LogWorld: Bringing up level for play took: 0.000803
+[2018.09.20-21.42.30:962][305]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.42.30:962][305]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.09.20-21.42.30:962][305]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.42.30:962][305]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2018.09.20-21.42.30:962][305]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.09.20-21.42.30:962][305]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.42.30:962][305]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.09.20-21.42.30:966][305]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_1_ThirdPersonExampleMap 1.075
+[2018.09.20-21.42.30:967][305]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 20, 2018, 1:42:30 PM)
+[2018.09.20-21.42.30:970][305]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.20-21.42.30:972][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.20-21.42.31:004][305]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2018.09.20-21.42.31:004][305]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.09.20-21.42.31:004][305]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.09.20-21.42.31:004][305]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.09.20-21.42.31:004][305]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.09.20-21.42.31:004][305]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.09.20-21.42.31:004][305]LogNet: Game client on port 17777, rate 10000
+[2018.09.20-21.42.31:008][305]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap 1.117
+[2018.09.20-21.42.31:012][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.09.20-21.42.31:012][305]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60428
+[2018.09.20-21.42.31:012][305]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 050179035184143075199087046222007101189218153172017168082132
+[2018.09.20-21.42.31:013][305]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 050179035184143075199087046222007101189218153172017168082132
+[2018.09.20-21.42.31:094][305]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.09.20-21.42.31:479][305]LogWindows: Error: === Critical error: ===
+[2018.09.20-21.42.31:479][305]LogWindows: Error: 
+[2018.09.20-21.42.31:479][305]LogWindows: Error: Assertion failed: IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h] [Line: 849] 
+[2018.09.20-21.42.31:479][305]LogWindows: Error: 
+[2018.09.20-21.42.31:479][305]LogWindows: Error: 
+[2018.09.20-21.42.31:479][305]LogWindows: Error: 
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffc34f3a388 KERNELBASE.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffc12f16850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdf7762ec UE4Editor-Core.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdf7051cb UE4Editor-Core.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbda57661b UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbda58c60c UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbda55993f UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbda5a9cc1 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc67fa4a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdd1d UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc63f8ad UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbda598df2 UE4Editor-UMG.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc63f8ad UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbddab5647 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc644c95 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bceab1 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc884 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc726 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc109 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcc92a UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbe0bcdee3 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc3dd5bc UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc413783 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc3de7cf UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc43f010 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffbdc43dd17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ff707806aa7 UE4Editor.exe!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ff707815b3c UE4Editor.exe!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ff707815bba UE4Editor.exe!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ff707823dac UE4Editor.exe!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ff707825aaa UE4Editor.exe!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffc363f3034 KERNEL32.DLL!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: [Callstack] 0x00007ffc38ad1461 ntdll.dll!UnknownFunction []
+[2018.09.20-21.42.31:479][305]LogWindows: Error: 
+[2018.09.20-21.42.31:487][305]LogExit: Executing StaticShutdownAfterError
+[2018.09.20-21.42.31:490][305]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.09.20-21.42.31:492][305]Log file closed, 09/20/18 17:42:31
