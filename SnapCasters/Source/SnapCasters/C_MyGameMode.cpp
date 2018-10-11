@@ -42,11 +42,11 @@ int  AC_MyGameMode::IsitMyturn() {
 
  void AC_MyGameMode::PostLogin(APlayerController * NewPlayer) {
 
-	 Super::PostLogin(NewPlayer);
-	 APlayerController* pc = Cast<APlayerController>(NewPlayer);
-	 NewPlayer->PlayerState->PlayerId 
+	// Super::PostLogin(NewPlayer);
+	// APlayerController* pc = Cast<APlayerController>(NewPlayer);
+	  
 	
-	 playerArray.Add();
+	 playerArray.Add(NewPlayer->PlayerState->PlayerId);
 	 
 	AC_MyGameState* const MyGameState = GetWorld() != NULL ? GetWorld()->GetGameState<AC_MyGameState>() : NULL;
 

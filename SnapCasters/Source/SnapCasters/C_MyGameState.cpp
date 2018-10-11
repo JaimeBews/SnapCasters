@@ -8,6 +8,7 @@ void AC_MyGameState::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & Ou
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AC_MyGameState, pTurn);
 	DOREPLIFETIME(AC_MyGameState, pArr);
+	DOREPLIFETIME(AC_MyGameState, winningPlayerName);
 } 
 void AC_MyGameState::EndTurn() {
 	if (pArr.Num() - 1 == pTurn)
