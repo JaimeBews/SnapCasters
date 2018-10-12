@@ -16,6 +16,4 @@ class SNAPCASTERS_API AC_MyPlayerController : public APlayerController
 	GENERATED_BODY()
 
 
-	
-	
 };
